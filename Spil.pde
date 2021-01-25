@@ -5,9 +5,8 @@ class Spil {
   void lavKort()
   {
   for(int v = 1; v<=13;v++){
-  for(int c = 1; c<=4;c++){
-  liste.add(new kort(c,v));
-  }}
+  liste.add(new kort(v));
+  }
   }
   
   void treakKort()
