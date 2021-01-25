@@ -12,10 +12,12 @@ class Spil {
   
   void treakKort()
   {
+    if(liste.size()>0){
     int nummer = int(random(0,liste.size()));
     
     liste.get(nummer).display();
     liste.remove(nummer);
+    }
   }
   
 }
