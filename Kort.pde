@@ -14,7 +14,7 @@ class kort {
     if(suit==3){name = ("Spar");}
     if(suit==4){name = ("Klør");}
     fill(255);
-    rect(width/2,height/2,60,100);
+    rect(width/2,height/2,200,120);
     fill(100);
     text(name+" "+value,(width/2)-25,height/2);
   }

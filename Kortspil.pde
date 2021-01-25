@@ -11,7 +11,7 @@ void setup()
 
 void mousePressed()
 {
-  clear();
+  background(0,100,0);
   kortSpil.treakKort();
 }
 
