@@ -3,9 +3,9 @@ class kort {
  
   String name;
   int value;
-  int suit;
+  boolean suit;
   
-  kort(int v){value = v;}
+  kort(int v,boolean Hand){value = v;}
   
   void display() 
   {

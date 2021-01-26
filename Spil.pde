@@ -1,3 +1,4 @@
+
 class Spil {
   
  String navn;
@@ -6,6 +7,7 @@ class Spil {
   {
   for(int v = 1; v<=13;v++){
   liste.add(new kort(v));
+  hand.add(new kort(v));
   }
   }
   

@@ -2,10 +2,13 @@
 ArrayList<kort> liste = new ArrayList<kort>();
 Spil kortSpil = new Spil();
 
+ArrayList<kort> hand = new ArrayList<kort>();
+
 void setup()
 {
   size(500,500);
   rectMode(CENTER);
+  textSize(20);
   kortSpil.lavKort();
 }
 
