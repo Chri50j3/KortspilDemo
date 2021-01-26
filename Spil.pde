@@ -2,6 +2,7 @@
 class Spil {
   
  String navn;
+ int nummer;
   
   void lavKort()
   {
@@ -14,11 +15,13 @@ class Spil {
   void treakKort()
   {
     if(liste.size()>0){
-    int nummer = int(random(0,liste.size()));
+      if(next == true){
+      if(liste.size()>1){liste.remove(nummer);}
+      nummer = int(random(0,liste.size())); next=false;}
     
     liste.get(nummer).display();
-    liste.remove(nummer);
     }
+    
   }
   
 }

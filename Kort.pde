@@ -4,6 +4,8 @@ class kort {
   String name;
   int value;
   boolean H;
+  float x;
+  float y;
   
   kort(int v,boolean Hand){value = v;H=Hand;}
   
@@ -16,10 +18,19 @@ class kort {
     text(value,(width/2)-25,height/2);
     }
     if(H==true){ 
+    x = (width/13)*value+30;
+    y = height-50;
+    
+    if(mouseY>height-200)
+      {
+        if (abs(mouseX-(x-40))<14.5)
+      {y = y-100;}}
+      
     fill(255);
-    rect((width/13)*value+20,500,120,200);
+    rect(x,y,120,200);
     fill(0);
-    text(value,(width/13)*value-35,420);
+    text(value,x-58,y-80);
+    
     }
   }
   
