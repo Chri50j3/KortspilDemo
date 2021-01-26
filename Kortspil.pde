@@ -20,5 +20,6 @@ void mousePressed()
 
 void draw()
 {
-
+  for(int i=0;i<13;i++)
+  {hand.get(i).display();}
 }
