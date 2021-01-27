@@ -5,6 +5,8 @@ ArrayList<kort> hand = new ArrayList<kort>();
 
 PImage BackDrop;
 boolean next = false;
+boolean pres = false;
+boolean turn = true;
 
 void setup()
 {
@@ -19,7 +21,9 @@ void setup()
 
 void mousePressed()
 {
-  next = true;
+  if(turn==true){
+    pres=true; turn =false;
+  }
 }
 
 void draw()
@@ -29,3 +33,6 @@ void draw()
   {hand.get(i).display();}
   kortSpil.treakKort();
 }
+
+void nextRound()
+{next = true;}
