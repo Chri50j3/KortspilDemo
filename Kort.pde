@@ -27,7 +27,7 @@ class kort {
       {
         if (abs(mouseX-(x-40))<14.5)
         {y = y-100;
-        if (pres==true){on=false;pres=false; turn=true;next=true;}
+        if (pres==true){on=false;pres=false; turn=true;next=true;Pk = value;}
       }}
       
     fill(255);
@@ -38,4 +38,7 @@ class kort {
     }
   }
   }
+  
+  public int tal() 
+  {return value;}
 }

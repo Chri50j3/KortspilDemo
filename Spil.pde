@@ -9,6 +9,7 @@ class Spil {
   for(int v = 1; v<=13;v++){
   liste.add(new kort(v,false));
   hand.add(new kort(v,true));
+  handBot.add(new kort(v,true));
   }
   }
   
