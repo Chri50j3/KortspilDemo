@@ -38,7 +38,4 @@ class kort {
     }
   }
   }
-  
-  public int tal() 
-  {return value;}
 }

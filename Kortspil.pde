@@ -7,6 +7,7 @@ ArrayList<kort> handBot = new ArrayList<kort>();
 Bot bot = new Bot();
 
 int Pk, Bk, Kk;
+int PlayerScore = 0, BotScore = 0;
 
 PImage BackDrop;
 boolean next = false;
@@ -24,13 +25,7 @@ void setup()
   next = false;
 }
 
-void mousePressed()
-{
-  if(turn==true){
-    pres=true; turn =false;
-    bot.legkort();
-  }
-}
+
 
 void draw()
 {
@@ -38,7 +33,23 @@ void draw()
   for(int i=0;i<13;i++)
   {hand.get(i).display();}
   kortSpil.treakKort();
-  text(Bk,50,50);
+  fill(0);
+  text(PlayerScore,20,650);
+  text(BotScore,20,50);
+}
+
+void mousePressed()
+{
+  if(turn==true){
+    pres=true; turn =false;
+    for(int i=0;i<13;i++)
+      {hand.get(i).display();}
+    bot.legkort();
+    println(Bk);
+    println(Pk+"ja");
+    if(Bk>Pk){BotScore++;}
+    if(Pk>Bk){PlayerScore++;}
+  }
 }
 
 void nextRound()

@@ -21,6 +21,7 @@ class Spil {
       nummer = int(random(0,liste.size())); next=false;}
     
     liste.get(nummer).display();
+    Kk = liste.get(nummer).value;
     }
     
   }

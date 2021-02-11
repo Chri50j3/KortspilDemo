@@ -2,17 +2,31 @@
 class Bot {
   
   int Kkv;
+  int R;
   
   void legkort(){
   for(int o=2; o <= 13; o++){
-    Kkv = Kk + int(random(-o,o));
+    R = int(random(-o,o));
+    Kkv = Kk + R;
+    
     for(int i=0 ; i < handBot.size(); i++ ){
-      
-      if(handBot.get(i).tal() == Kkv){
-      Bk = handBot.get(i).tal();
+      if(handBot.get(i).value == Kkv){
+      Bk = handBot.get(i).value;
       handBot.remove(i);
-      println("tis");
       return;
+      }
+      else{
+        if(R<0){
+        if(handBot.get(i).value == Kk + int(random(R,o))){
+        Bk = handBot.get(i).value;
+        handBot.remove(i);
+        return;}}
+        
+        if(R>0){
+        if(handBot.get(i).value == Kk + int(random(o,R))){
+        Bk = handBot.get(i).value;
+        handBot.remove(i);
+        return;}} 
       }
     }
   }
