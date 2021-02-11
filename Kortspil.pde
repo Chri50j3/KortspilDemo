@@ -45,10 +45,10 @@ void mousePressed()
     for(int i=0;i<13;i++)
       {hand.get(i).display();}
     bot.legkort();
-    println(Bk);
-    println(Pk+"ja");
-    if(Bk>Pk){BotScore++;}
-    if(Pk>Bk){PlayerScore++;}
+    //println(Bk);
+    //println(Pk+"ja");
+    if(Bk>Pk){BotScore += Kk;}
+    if(Pk>Bk){PlayerScore += Kk;}
   }
 }
 

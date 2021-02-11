@@ -1,3 +1,4 @@
+import java.util.Collections;
 
 class Spil {
   
@@ -11,17 +12,18 @@ class Spil {
   hand.add(new kort(v,true));
   handBot.add(new kort(v,true));
   }
+  Collections.shuffle(liste);
   }
   
   void treakKort()
   {
     if(liste.size()>0){
       if(next == true){
-      if(liste.size()>1){liste.remove(nummer);}
-      nummer = int(random(0,liste.size())); next=false;}
+      if(liste.size()>1){liste.remove(1);}
+      nummer = liste.get(1).value; next=false;}
     
-    liste.get(nummer).display();
-    Kk = liste.get(nummer).value;
+    liste.get(1).display();
+    Kk = liste.get(1).value;
     }
     
   }

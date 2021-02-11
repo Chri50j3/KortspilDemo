@@ -4,7 +4,7 @@ class Bot {
   int Kkv;
   int R;
   
-  void legkort(){
+  void legkorthard(){
   for(int o=2; o <= 13; o++){
     R = int(random(-o,o));
     Kkv = Kk + R;
@@ -27,8 +27,35 @@ class Bot {
         Bk = handBot.get(i).value;
         handBot.remove(i);
         return;}} 
+        }
       }
     }
   }
-}
+
+  void legkort(){
+    
+    int[] deck_ = new int[handBot.size()];
+    for(int i = 0; i < handBot.size(); i++)
+      deck_[i] = handBot.get(i).value;
+      
+    println(deck_);
+    
+    
+    while(true) {
+      int offset = round(tan(random(-1.5,1.5)));
+    
+      Kkv = Kk + offset;
+    
+      for(int i = 0; i < handBot.size(); i++) {
+        if(handBot.get(i).value == Kkv) {
+          
+          println(Kk + " + " + offset + " = " + Kkv);
+          
+          Bk = Kkv;
+          handBot.remove(i);
+          return;
+        }
+      }
+    }
+  }
 }
