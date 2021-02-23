@@ -19,11 +19,11 @@ class Spil {
   {
     if(liste.size()>0){
       if(next == true){
-      if(liste.size()>1){liste.remove(1);}
-      nummer = liste.get(1).value; next=false;}
+      if(liste.size()>1){liste.remove(0);}
+      nummer = liste.get(0).value; next=false;}
     
-    liste.get(1).display();
-    Kk = liste.get(1).value;
+    liste.get(0).display();
+    Kk = liste.get(0).value;
     }
     
   }

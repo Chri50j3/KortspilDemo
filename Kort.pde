@@ -15,9 +15,10 @@ class kort {
     if(on==true){
     if(H==false){
     fill(255);
-    rect(width/2,height/2,200,120);
-    fill(100);
-    text(value,(width/2)-25,height/2);
+    image(Card2,width/2,height/2,200,140);
+    fill(250);
+    text(value,(width/2)-85,height/2+50);
+    text(value,(width/2)+70,height/2-40);
     }
     if(H==true){ 
     x = (width/13)*value+30;
@@ -31,8 +32,8 @@ class kort {
       }}
       
     fill(255);
-    rect(x,y,120,200);
-    fill(0);
+    image(Card,x,y,130,200);
+    fill(250);
     text(value,x-58,y-80);
     
     }
