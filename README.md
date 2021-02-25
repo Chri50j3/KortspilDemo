@@ -1,16 +1,8 @@
 # KortspilDemo
 
-Kort beskrivelse af projektet	1
-1. Kravlister	1
-2. Objektorienteret analyse	1
-2.1 Skrive vigtige ting op	1
-2.2 Brugsscenarier - Hvem Hvad Hvor	2
-2.3 Aktivitetsdiagrammer	2
-2.4 Skærmbilleder	3
-3. Objektorienteret design.	5
-Kort beskrivelse af projektet
+<h1>Kort beskrivelse af projektet</h1>
 Vi skal designe et kortspil lignende til hit spillet “Game Of Pure Strategy” eller bare “GOPS”, og vi skal have forklaret vores valg ift. design, mekanismer, hvilke krav, begreber og til sidst programmering.
-1. Kravlister
+<h1>1. Kravlister</h1>
 1.	Skal kunne understøtte en-to spillere.
 2.	Skal kunne håndtere flere kortdæk. 
 3.	Skal kunne vise kort på hånden.
@@ -21,8 +13,8 @@ Vi skal designe et kortspil lignende til hit spillet “Game Of Pure Strategy”
 8.	Skal have en tidsgrænse på turen.
 9.	Skal have en computer-styre-funktion.
 10.	Skal kunne afslutte spillet korrekt.
-2. Objektorienteret analyse
-2.1 Skrive vigtige ting op
+<h1>2. Objektorienteret analyse</h1>
+<h2>2.1 Skrive vigtige ting op</h2>
 ●	Spil - single-/multiplayer
 ●	Kort- værdi, position
 ●	Hånd - størrelse,
@@ -32,7 +24,7 @@ Vi skal designe et kortspil lignende til hit spillet “Game Of Pure Strategy”
 ●	Timer - tælle,
 ●	Lager - vinderhistorik mellem spillere,
  
-2.2 Brugsscenarier - Hvem Hvad Hvor
+<h2>2.2 Brugsscenarier - Hvem Hvad Hvor</h2>
 En spiltur
 Primær aktør    |  Spilleren, modstanderen
 Interessenter   |  Systemet
@@ -49,11 +41,11 @@ Afvigelser	    |  1. I tilfældet af, at man spiller multiplayer, så ventes der
 Hvis en spiller på noget som helst tidspunkt afslutter deres spil, så overtages spilleren af en bot, og spillet fortsætter.
 Åbne spørgsmål	
 
-2.3 Aktivitetsdiagrammer
+<h2>2.3 Aktivitetsdiagrammer</h2>
 Taget fra Kom/IT opgaven
 ![Billede1](Billede1.png) 
  
-2.4 Skærmbilleder
+<h2>2.4 Skærmbilleder</h2>
 
 Spillet i landscape mode.
 
