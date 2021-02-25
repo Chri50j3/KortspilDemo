@@ -3,7 +3,7 @@
 <h1>Kort beskrivelse af projektet</h1>
 Vi skal designe et kortspil lignende til hit spillet “Game Of Pure Strategy” eller bare “GOPS”, og vi skal have forklaret vores valg ift. design, mekanismer, hvilke krav, begreber og til sidst programmering.
 <h1>1. Kravlister</h1>
-1.	Skal kunne understøtte en-to spillere.
+1.	Skal kunne understøtte en-to spillere.<br>
 2.	Skal kunne håndtere flere kortdæk. 
 3.	Skal kunne vise kort på hånden.
 4.	Skal kunne lade spilleren vælge kort.
