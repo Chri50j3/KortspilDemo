@@ -13,6 +13,7 @@ class Spil {
   handBot.add(new kort(v,true));
   }
   Collections.shuffle(liste);
+  while(liste.get(0).value == 13){Collections.shuffle(liste);}
   }
   
   void treakKort()

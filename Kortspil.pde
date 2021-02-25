@@ -1,3 +1,4 @@
+import java.util.Collections;
 
 ArrayList<kort> liste = new ArrayList<kort>();
 Spil kortSpil = new Spil();
@@ -103,6 +104,18 @@ void draw()
   fill(0);
   text("Video",width/2,485+120);
   text("Rules",width/2,485+120*2);
+  }
+  fill(0);
+  triangle(25,5,25,25,5,15);
+  if(dist(mouseX,mouseY,15,15)<10 && ButPress==true){
+  side=0; 
+  ButPress=false;
+  liste.clear();
+  hand.clear();
+  handBot.clear();
+  kortSpil.lavKort();
+  PlayerScore = 0;
+  BotScore = 0;
   }
 }
 
