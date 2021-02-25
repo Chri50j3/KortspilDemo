@@ -34,7 +34,7 @@ class kort {
     fill(255);
     image(Card,x,y,130,200);
     fill(250);
-    text(value,x-58,y-80);
+    text(value,x-50,y-80);
     
     }
   }
