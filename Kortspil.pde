@@ -4,10 +4,10 @@ Spil kortSpil = new Spil();
 ArrayList<kort> hand = new ArrayList<kort>();
 ArrayList<kort> handBot = new ArrayList<kort>();
 
-Menu singleplayer = new Menu(4);
-Menu menu2 = new Menu(3);
-Menu menu3 = new Menu(5);
-Menu menu4 = new Menu(6);
+Menu startside = new Menu(3,true);
+Menu singleplayer = new Menu(3,false);
+Menu multiplayer = new Menu(4,false);
+Menu how = new Menu(4,false);
 
 Bot bot = new Bot();
 
@@ -51,24 +51,25 @@ void draw()
   text(PlayerScore,20,650);
   text(BotScore,20,50);}
   
-  //singelplayer
+  //startside
   if(side == 0){
+  image(BackDrop,width/2,height/2,width,height);
+  startside.tegnKnapper();
+  }
+  //singleplayer
+  if(side == 2){
   image(BackDrop,width/2,height/2,width,height);
   singleplayer.tegnKnapper();
   }
-  if(side == 2){
-  image(BackDrop,width/2,height/2,width,height);
-  menu2.tegnKnapper();
-  }
-    
+  //multiplayer  
   if(side == 3){
   image(BackDrop,width/2,height/2,width,height);
-  menu3.tegnKnapper(); 
+  multiplayer.tegnKnapper(); 
   }
-    
+  //how to play  
   if(side == 4){
   image(BackDrop,width/2,height/2,width,height);
-  menu4.tegnKnapper();
+  how.tegnKnapper();
   }
 }
 
