@@ -63,7 +63,6 @@ Settings(meget simple)	<br>
 ![Settingsmenu](Settingsmenu.png) <br>
 
 how to play med reglerne i tekst og video format<br>
-![Howtoplaymenu](Howtoplaymenu.png) <br>
 
 <h1>3. klassediagram</h1><br>
 ![Howtoplaymenu](Howtoplaymenu.png) <br>
