@@ -67,6 +67,6 @@ how to play med reglerne i tekst og video format<br>
 
 <h1>3. klassediagram</h1><br>
 
-![Howtoplaymenu](Howtoplaymenu.png) <br>
+![Klassediagram](Klassediagram.png) <br>
 
-hej
+Christopher Bik, Christopher Heldgaard, Marcus Wegmann og Oliver Jessen
