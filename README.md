@@ -43,29 +43,28 @@ Hvis en spiller på noget som helst tidspunkt afslutter deres spil, så overtage
 
 <h2>2.3 Aktivitetsdiagrammer</h2>
 Taget fra Kom/IT opgaven
-![Billede1](Billede1.png) 
+![Flowchart](Flowchart.png)
+![Menuhierarki](Menuhierarki.png) 
  
 <h2>2.4 Skærmbilleder</h2>
+Spillet i portrait mode <br>
+![Lodretskitse](Lodretskitse.png) <br>
 
-Spillet i landscape mode.
-
-
-
-
-
-
-
-
-
-
+Hovedmenuen<br>
+![Hovedmenu](Hovedmenu.png) <br>
   
-Hovedmenuen
-Spillet i portrait mode
-  
-Singleplayer, med valg af sværhedsgrad	 multiplayer med forskellige typer
-  
-Settings(meget simple)	how to play med reglerne i tekst og video format
+Singleplayer, med valg af sværhedsgrad	<br>
+![Singeplayermenu](Singeplayermenu.png) <br>
 
-3. klassediagram
- 
+multiplayer med forskellige typer<br>
+![Multiplayermenu](Multiplayermenu.png) <br>
+
+Settings(meget simple)	<br>
+![Settingsmenu](Settingsmenu.png) <br>
+
+how to play med reglerne i tekst og video format<br>
+![Howtoplaymenu](Lodretskitse.png) <br>
+
+<h1>3. klassediagram</h1><br>
+![Klassediagram](Klassediagram.png)  <br>
 
