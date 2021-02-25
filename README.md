@@ -49,7 +49,7 @@ Taget fra Kom/IT opgaven
 <h2>2.4 Skærmbilleder</h2>
 Spillet i portrait mode <br>
 ![Lodretskitse](Lodretskitse.png) <br>
-
+hej
 Hovedmenuen<br>
 ![Hovedmenu](Hovedmenu.png) <br>
   
