@@ -66,5 +66,5 @@ how to play med reglerne i tekst og video format<br>
 ![Howtoplaymenu](Howtoplaymenu.png) <br>
 
 <h1>3. klassediagram</h1><br>
-![skull](skull.png)  <br>
+![KortImg2](KortImg2.png)  <br>
 
