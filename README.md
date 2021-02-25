@@ -42,8 +42,9 @@ Hvis en spiller på noget som helst tidspunkt afslutter deres spil, så overtage
 Åbne spørgsmål	
 
 <h2>2.3 Aktivitetsdiagrammer</h2>
+
 Taget fra Kom/IT opgaven
-![Flowchart](Flowchart.png)
+![Flowchart](Flowchart.png) <br>
 ![Menuhierarki](Menuhierarki.png) 
  
 <h2>2.4 Skærmbilleder</h2>
